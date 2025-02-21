@@ -134,9 +134,7 @@ func main() {
 6. **Breaking and Continuing in Loops**
 ```
 package main
-
 import "fmt"
-
 func main() {
     for i := 0; i < 10; i++ {
         if i == 5 {
@@ -146,6 +144,56 @@ func main() {
             continue // Skip even numbers
         }
         fmt.Println(i)
+    }
+}
+```
+
+7. **If else loops** 
+```
+package main
+
+import "fmt"
+
+func main() {
+    age := 16
+
+    if age >= 18 {
+        fmt.Println("You are eligible to vote!")
+    } else {
+        fmt.Println("You are not eligible to vote.")
+    }
+}
+```
+
+8. **Short variable declaration**
+```
+package main
+import "fmt"
+func main() {
+    if number := 10; number%2 == 0 {
+        fmt.Println("Even number")
+    } else {
+        fmt.Println("Odd number")
+    }
+}
+```
+
+9. **Switch Statement**
+```
+package main
+
+import "fmt"
+
+func main() {
+    day := "Monday"
+
+    switch day {
+    case "Monday":
+        fmt.Println("Start of the week!")
+    case "Friday":
+        fmt.Println("Weekend is near!")
+    default:
+        fmt.Println("Another day of the week!")
     }
 }
 ```
