@@ -27,12 +27,13 @@
     name, age := "Archit", 30
 
 6. **Grouped declaration**
-
+```
     var (
         firstName string = "Archit"
         lastName  string = "Patel"
         isAdmin   bool   = true
     )
+```
 ```
     fmt.Println("Name:", name)
     fmt.Println("Age:", age)
