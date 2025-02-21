@@ -113,3 +113,39 @@ func main() {
     }   
 }
 ```
+5. **Loop Through the map**
+```
+package main
+
+import "fmt"
+
+func main() {
+    person := map[string]string{
+        "name": "Archit",
+        "city": "Mumbai",
+    }
+
+    for key, value := range person {
+        fmt.Println(key, ":", value)
+    }
+}
+```
+
+6. **Breaking and Continuing in Loops**
+```
+package main
+
+import "fmt"
+
+func main() {
+    for i := 0; i < 10; i++ {
+        if i == 5 {
+            break // Exit the loop when i equals 5
+        }
+        if i%2 == 0 {
+            continue // Skip even numbers
+        }
+        fmt.Println(i)
+    }
+}
+```
