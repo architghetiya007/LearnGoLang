@@ -49,21 +49,19 @@
 
 # Looping concept in the GoLang
 1. **Simple for loop.** 
+```
 package main
-
 import "fmt"
-
 func main() {
     for i := 0; i < 5; i++ {
         fmt.Println(i)
     }
 }
-
+```
 2. **While loop** 
+```
 package main
-
 import "fmt"
-
 func main() {
     count := 0
     for count < 5 {
@@ -71,18 +69,19 @@ func main() {
         count++
     }
 }
+```
 
 3. **Infinite Loop** 
+```
 package main
-
 import "fmt"
-
 func main() {
     for {
         fmt.Println("This will loop forever")
         break // To prevent infinite loop
     }
 }
+```
 
 4. **Using for with range (For Arrays, Slices, Maps, and Strings)**
 ```
