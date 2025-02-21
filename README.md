@@ -1,15 +1,11 @@
 ## Declare the Variable
-package main
-import (
-    "fmt"
-)
 
-func main() {
-1. **Using the var keyword (Explicit type)** 
+1. **Using the var keyword (Explicit type)** /n
 var name string = "Archit"
 var age int = 30
 
 2. **Using var without an initial value (Zero value)**
+<br>
 var city string  //Zero value: ""
 var score int    // Zero value: 0
 var isActive bool // Zero value: false
