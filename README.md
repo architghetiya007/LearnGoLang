@@ -197,3 +197,24 @@ func main() {
     }
 }
 ```
+
+10. **fallthrough in switch (Continue to Next Case)**
+```
+package main
+import "fmt"
+func main() {
+    number := 3
+    switch number {
+    case 1:
+        fmt.Println("One")
+    case 3:
+        fmt.Println("Three")
+        fallthrough
+    case 4:
+        fmt.Println("Four")
+    default:
+        fmt.Println("Other number")
+    }
+}
+OUTPUT:Three Four**
+```
