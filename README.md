@@ -218,3 +218,15 @@ func main() {
 }
 OUTPUT:Three Four**
 ```
+
+# Function in the golang
+    In golang default main() should be there and you can execute the custom function.You can use below syntax to create custom function. 
+
+    ```
+    func customFunction() {
+        // Your logic here
+    }
+    func main() {
+        customFunction()
+    }
+    ```
