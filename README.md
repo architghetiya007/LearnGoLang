@@ -229,3 +229,5 @@ OUTPUT:Three Four**
         customFunction()
     }
 ```
+
+If you add function name as init() then it will by default execute the code. 
