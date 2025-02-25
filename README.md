@@ -230,4 +230,4 @@ OUTPUT:Three Four**
     }
 ```
 
-If you add function name as init() then it will by default execute the code. 
+If you add function name as **init()** then it will by default execute the code. 
